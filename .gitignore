@@ -1,0 +1,20 @@
+# Ignore the contents of the _site directory and other cache directories
+_site/
+.sass-cache/
+.bundle/
+# Ignore the directory for local files during development
+local/
+
+# Ignore the Gemfile that is generated
+Gemfile.lock
+
+# Ingore files created by npm
+node_modules
+package-lock.json
+
+vendor/*
+__MACOSX/
+__pycache__/
+**/__pycache__/
+.DS_Store
+**/.DS_Store
