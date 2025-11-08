@@ -21,7 +21,7 @@ Zhijie Wang, Lin Wang, Zhenyu Wen,<strong>Cong Wang*</strong><br>
 <li>
 <p>
 <strong>[AAAI 26] </strong>RFF-TTA: Physical Information-Aware Prototype for Temporally Varying RF Fingerprinting Online Test-Time-Adaptation <strong>(Oral)</strong><br>
-Taotao Li, Li Yiyang, Zhenyu Wen, Jiahao Lin, Jinhao Wan,  Jie Su, Cong Wang,  Zhen Hong <br>
+Taotao Li, Li Yiyang, Zhenyu Wen, Jiahao Lin, Jinhao Wan,  Jie Su, <strong>Cong Wang</strong>,  Zhen Hong <br>
 <em>The 40th Annual AAAI Conference on Artificial Intelligence, Singapore</em>
 </p>
 </li>
