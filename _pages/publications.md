@@ -10,6 +10,22 @@ author_profile: true
 
 
 ## Selected Conference Publications
+<li>
+<p>
+<strong>[AAAI 26] </strong>Beyond Single-Point Perturbation: A Hierarchical, Manifold-Aware Approach to Diffusion Attacks<br>
+Zhijie Wang, Lin Wang, Zhenyu Wen,<strong>Cong Wang*</strong><br>
+<em>The 40th Annual AAAI Conference on Artificial Intelligence, Singapore</em>
+</p>
+</li>
+
+<li>
+<p>
+<strong>[AAAI 26] </strong>RFF-TTA: Physical Information-Aware Prototype for Temporally Varying RF Fingerprinting Online Test-Time-Adaptation <strong>(Oral)</strong><br>
+Taotao Li, Li Yiyang, Zhenyu Wen, Jiahao Lin, Jinhao Wan,  Jie Su, Cong Wang,  Zhen Hong <br>
+<em>The 40th Annual AAAI Conference on Artificial Intelligence, Singapore</em>
+</p>
+</li>
+
 
 <li>
 <p>
