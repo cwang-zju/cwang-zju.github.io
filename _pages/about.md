@@ -7,12 +7,12 @@ redirect_from:
 ---
 
 ## About 
-Dr. Cong Wang is an associate professor at the College of Control Science and Engineering, Zhejiang University in Hangzhou, China, where he was born and raised. Cong received his Ph.D from the Department of Electrical and Computer Engineering, <a href="https://www.stonybrook.edu"> Stony Brook University</a> (16'), advised by <a href="http://www.ece.stonybrook.edu/~yang/">Prof. Yuanyuan Yang</a>, B. Eng in Information Engineering from the <a href="https://www.cuhk.edu.hk"> Chinese University of Hong Kong</a> (08') and M. Sc in Electrical Engineering from <a href="https://www.columbia.edu"> Columbia University</a> (09'). From 2017-2023, he was a Tenure-Track Assistant Professor at the Cybersecurity Department of <a href="https://www.gmu.edu">George Mason University</a>, Fairfax, VA and the Computer Science Department at the <a href="https://www.odu.edu"> Old Dominion University</a>, Norfolk, VA (working with <a href="https://wu.static.arizona.edu/">Prof. Hongyi Wu</a>. His research mainly focuses on Adversarial ML, LLM Safety and Resource-constrained Devices. He is the recipient of NSF CRII Award in 2019 and NSF CAREER Award in 2021. 
+Dr. Cong Wang is an associate professor at the College of Control Science and Engineering, Zhejiang University in Hangzhou, China, where he was born and raised. Cong received his Ph.D from the Department of Electrical and Computer Engineering, <a href="https://www.stonybrook.edu"> Stony Brook University</a> (16'), advised by <a href="http://www.ece.stonybrook.edu/~yang/">Prof. Yuanyuan Yang</a>, B. Eng in Information Engineering from the <a href="https://www.cuhk.edu.hk"> Chinese University of Hong Kong</a> (08') and M. Sc in Electrical Engineering from <a href="https://www.columbia.edu"> Columbia University</a> (09'). From 2017-2023, he was a Tenure-Track Assistant Professor at the Cybersecurity Department of <a href="https://www.gmu.edu">George Mason University</a>, Fairfax, VA and the Computer Science Department at the <a href="https://www.odu.edu"> Old Dominion University</a>, Norfolk, VA (working with <a href="https://wu.static.arizona.edu/">Prof. Hongyi Wu)</a>. His research mainly focuses on Adversarial ML, LLM Safety and Resource-constrained Devices. He is the recipient of NSF CRII Award in 2019 and NSF CAREER Award in 2021. 
           
 Research Interests
 ------
 
-**Mobile and Edge Computing; Paralleled and Distributed Computing; Adversarial Machine Learning**
+**LLM Efficiency and Safety**
 
 
 <!-- 
