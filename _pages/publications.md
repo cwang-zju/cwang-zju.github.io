@@ -47,7 +47,7 @@ Zichen Wang, Feng Yan, Tianyi Wang, <strong>Cong Wang*</strong>, Yuanchao Shu, P
 
 <li>
 <p>
-<strong>[ACM MM 25] </strong>DeCoRec: Decoupled Collaborative Refinement for Multi-Modal Sequential Recommendations<br>
+<strong>[MM 25] </strong>DeCoRec: Decoupled Collaborative Refinement for Multi-Modal Sequential Recommendations<br>
 Zhaoqi Chen, Wanni Xu, Yunfeng Zhang, Yawei Hou, Zhenyu Wen, <strong>Cong Wang*</strong><br>
 <em>ACM Multimedia Conference, Dublin, Ireland, 2025</em>
 </p>
@@ -119,7 +119,7 @@ Yanru Xiao, <strong>Cong Wang* and Xing Gao</strong><br>
 
 <li>
 <p>
-<strong>[ACM MM 20] </strong>Gangsweep: Sweep out neural backdoors by gan<br>
+<strong>[MM 20] </strong>Gangsweep: Sweep out neural backdoors by gan<br>
 Liuwan Zhu, Rui Ning, <strong>Cong Wang</strong>, Chunsheng Xin, Hongyi Wu<br>
 <em>Proceedings of the 28th ACM International Conference on Multimedia, 2020</em>
 </p>
@@ -164,7 +164,7 @@ Pengzhan Zhou, Xin Wei, <strong>Cong Wang* and Yuanyuan Yang*</strong><br>
 
 <li>
 <p>
-<strong>[ACM MM 19] </strong>Close the Gap between Deep Learning and Mobile Intelligence by Incorporating Training in the Loop<br>
+<strong>[MM 19] </strong>Close the Gap between Deep Learning and Mobile Intelligence by Incorporating Training in the Loop<br>
 <strong>Cong Wang*</strong>, Yanru Xiao, Xing Gao, Li Li, Jun Wang<br>
 <em>Proceedings of the 27th ACM International Conference on Multimedia, 2019</em>
 </p>
