@@ -38,4 +38,4 @@ author_profile: true
 - **Yanru Xiao** (PhD 2017-2022) [![Static Badge](https://img.shields.io/badge/personal%20page-%20?style=social&logo=materialformkdocs)](https://sites.google.com/view/yr-xiao)
   - Current Position: Applied Scientist, Amazon Research, Chicago, IL, USA
 
-> badge made by ![shields.io](https://shields.io/badges) & ![simpleicons.org](https://simpleicons.org/)
+> badge made by [shields.io](https://shields.io/badges) & [simpleicons.org](https://simpleicons.org/)

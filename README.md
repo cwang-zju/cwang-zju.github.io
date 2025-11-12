@@ -14,6 +14,15 @@
 ./local_deply.sh
 ```
 
+## 发布
+
+使用 [huacnlee/autocorrect](https://github.com/huacnlee/autocorrect/), [DavidAnson/markdownlint-cli2-action](https://github.com/DavidAnson/markdownlint-cli2-action) 进行自动检查和修复。
+
+```shell
+autocorrect **/*.md --fix
+markdownlint '**/*.md' --fix --config .github/.markdownlint.json
+```
+
 ## 环境配置指南
 
 ### 安装 ruby

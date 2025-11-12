@@ -250,7 +250,6 @@ Songtao Guo, <strong>Cong Wang and Yuanyuan Yang</strong><br>
 </p>
 </li>
 
-
 ## Selected Journal Publications
 
 <li>
