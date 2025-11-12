@@ -142,7 +142,7 @@ def validate_type(pub_type: str, file_type: str) -> tuple[bool, str]:
     
     if file_type in expected_types:
         if pub_type not in expected_types[file_type]:
-            return False, f"类型应为: {', '.join(expected_types[file_type])}"
+            return False, f"类型应为：{', '.join(expected_types[file_type])}"
     
     return True, ""
 
@@ -269,7 +269,7 @@ def collect_publication_info(file_type: str) -> Dict[str, str]:
     else:
         pub['type'] = 'book'  # 默认值
     
-    print_info(f"✓ 类型已自动设置为: {pub['type']}")
+    print_info(f"✓ 类型已自动设置为：{pub['type']}")
     
     # full_venue
     pub['full_venue'] = get_input(
@@ -280,13 +280,13 @@ def collect_publication_info(file_type: str) -> Dict[str, str]:
     
     # authors
     pub['authors'] = get_input(
-        "作者列表 (用英文逗号分隔，如: Author1, Author2, Cong Wang*)",
+        "作者列表 (用英文逗号分隔，如：Author1, Author2, Cong Wang*)",
         required=True,
         validator=lambda x: validate_required_field(x, "作者列表")
     )
     
     # citation
-    pub['citation'] = get_input("引用信息(可选项，URL形式)", required=False)
+    pub['citation'] = get_input("引用信息 (可选项，URL 形式)", required=False)
     
     # paper_url
     paper_url_validator = get_url_validator('paper_url')
@@ -328,7 +328,7 @@ def collect_publication_info(file_type: str) -> Dict[str, str]:
 def show_summary(pub: Dict[str, str]):
     """显示输入摘要"""
     print("\n" + colorize("="*60, Colors.BRIGHT_CYAN))
-    print_header("输入摘要:")
+    print_header("输入摘要：")
     print(colorize("="*60, Colors.BRIGHT_CYAN))
     for key, value in pub.items():
         if value:
@@ -338,9 +338,9 @@ def show_summary(pub: Dict[str, str]):
 def main():
     """主函数"""
     print("\n" + "="*60)
-    print("Publications管理工具")
+    print("Publications 管理工具")
     print("="*60)
-    print("\n请选择要添加的publication类型:")
+    print("\n请选择要添加的 publication 类型：")
     print("  1. books")
     print("  2. conference")
     print("  3. journal")
@@ -374,7 +374,7 @@ def main():
     show_summary(new_pub)
     
     # 确认
-    confirm = input(colorize("\n确认添加此条目? (y/n): ", Colors.BRIGHT_YELLOW)).strip().lower()
+    confirm = input(colorize("\n确认添加此条目？(y/n): ", Colors.BRIGHT_YELLOW)).strip().lower()
     if confirm != 'y':
         print_warning("已取消")
         sys.exit(0)
@@ -395,7 +395,7 @@ def main():
         print_success(f"\n✅ 成功添加条目到 {file_path}")
         print_info(f"   文件现在包含 {len(existing_data)} 条记录")
     except Exception as e:
-        print_error(f"\n❌ 写入文件时出错: {e}")
+        print_error(f"\n❌ 写入文件时出错：{e}")
         sys.exit(1)
 
 if __name__ == '__main__':
