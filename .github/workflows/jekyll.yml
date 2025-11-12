@@ -33,9 +33,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Update Publications
         run: |
-          set -e  # 遇到错误立即退出
-          set -o pipefail  # 管道命令失败时也退出
-          chmod +x scripts/update_publications.sh
           ./scripts/update_publications.sh || exit 1
 
       # - name: Commit changes if any
