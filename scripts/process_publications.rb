@@ -52,7 +52,6 @@ def format_publication(pub)
     <em>#{pub['full_venue']}</em>#{badges_str}
     </p>
     </li>
-
   HTML
 end
 
@@ -83,7 +82,7 @@ def process_publications
                  "## Selected Conference Publications\n\n" +
                  conference_content + "\n\n" +
                  "## Selected Journal Publications\n\n" +
-                 journal_content + "\n"
+                 journal_content
     
     # Write back to publications.md
     File.write('_pages/publications.md', new_content)
