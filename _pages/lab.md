@@ -15,6 +15,8 @@ author_profile: true
 
 - **Yuhao Shen** (2024-present) [![Static Badge](https://img.shields.io/badge/Google%20Scholar-%20?style=social&logo=googlescholar)](https://scholar.google.com/citations?user=kYveqcQAAAAJ&hl=us-EN) [![Static Badge](https://img.shields.io/badge/Email-%20?style=social&logo=gmail)](mailto:riven@zju.edu.cn)
 
+- **Junchi Ma** (2025-present)
+
 - **Huawei Fan** (2026-present) [![Static Badge](https://img.shields.io/badge/personal%20page-%20?style=social&logo=materialformkdocs)](https://www.philfan.cn) [![Static Badge](https://img.shields.io/badge/Email-%20?style=social&logo=gmail)](mailto:hw.phil.fan@gmail.com)
 
 ### Master Students
