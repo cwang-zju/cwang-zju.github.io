@@ -1,5 +1,5 @@
 pub_date	title	venue	type	full_venue	authors	citation	paper_url	code_url	slides_url	video_url	hero_img
-26	ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding	CVPR	conference	IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denvor, CO, USA	Quan Kong, Yuhao Shen, Yicheng Ji, Huan Li, Cong Wang*						
+26	ParallelVLM: Lossless Video-LLM Acceleration with Visual Alignment Aware Parallel Speculative Decoding	CVPR	conference	IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denvor, CO, USA	Quan Kong, Yuhao Shen, Yicheng Ji, Huan Li, Cong Wang*
 26	SpecBranch: Speculative Decoding via Hybrid Drafting and Rollback-Aware Branch Parallelism	ICLR	conference	The International Conference on Learning Representations, Rio De Janeiro, Brazil	Yuhao Shen, Junyi Shen, Quan Kong, Tianyu Liu, Yao Lu, Cong Wang*	https://arxiv.org/abs/2506.01979	iclr26.pdf	https://github.com/Sylvan820/Specbranch			
 26	End-to-End Model Generation with Large Language Models for Adaptive IoT Application Deployment	ICSE	conference	48th IEEE/ACM International Conference on Software Engineering	Zhenyu Wen, Jintao Feng, Nanjie Yao, Di Wu, Cong Wang, Mincheng Wu, Jianbin Qin, Shibo He						
 26	Beyond Single-Point Perturbation: A Hierarchical, Manifold-Aware Approach to Diffusion Attacks	AAAI	conference	The 40th Annual AAAI Conference on Artificial Intelligence, Singapore	Zhijie Wang, Lin Wang, Zhenyu Wen, Cong Wang*		aaai26b.pdf	https://github.com/wa789w/HAM			
@@ -33,4 +33,3 @@ pub_date	title	venue	type	full_venue	authors	citation	paper_url	code_url	slides_
 14	Recharging Schedules for Wireless Sensor Networks with Vehicle Movement Costs and Capacity Constraints	SECON	conference	IEEE International Conference on Sensing Communication and Networking (IEEE SECON), Singapore, 2014	Cong Wang, Ji Li, Fan Ye and Yuanyuan Yang						
 13	Mobile Data Gathering with Wireless Energy Replenishment in Rechargeable Sensor Networks	INFOCOM	conference	IEEE International Conference on Computer Communications, Turin, Italy, 2013	Songtao Guo, Cong Wang and Yuanyuan Yang						
 13	Multi-Vehicle Coordination for Wireless Energy Replenishment in Sensor Networks	IPDPS	conference	IEEE 27th International Symposium on Parallel and Distributed Processing (IPDPS)	Cong Wang, Ji Li, Fan Ye, Yuanyuan Yang						
-
