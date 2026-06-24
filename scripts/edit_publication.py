@@ -405,7 +405,7 @@ def curses_diff_view(stdscr, original: Dict[str, str], updated: Dict[str, str]) 
     stdscr.keypad(True)
     top = 0
     lines = _build_diff_lines(original, updated)
-    instructions = "↑/↓ 滚动, s 保存, Esc 返回"
+    instructions = "↑/↓ 滚动，s 保存，Esc 返回"
     while True:
         height, width = stdscr.getmaxyx()
         list_height = max(1, height - 3)
@@ -461,7 +461,7 @@ def curses_select_entry(stdscr, entries: List[Dict[str, str]]) -> Optional[int]:
     top = 0
     height, width = stdscr.getmaxyx()
     list_height = max(1, height - 4)
-    instructions = "↑/↓ 选择, Enter 确认, q 或 Esc 取消"
+    instructions ="↑/↓ 选择，Enter 确认，q 或 Esc 取消"
     while True:
         stdscr.erase()
         stdscr.addnstr(0, 0, instructions, width - 1)
@@ -492,7 +492,7 @@ def fallback_numeric_selector(entries: List[Dict[str, str]]) -> Optional[int]:
         print(format_preview(entry, idx - 1))
     print("  0. 取消")
     while True:
-        choice = input(colorize("请选择要编辑的条目编号: ", Colors.BRIGHT_CYAN)).strip()
+        choice = input(colorize("请选择要编辑的条目编号：", Colors.BRIGHT_CYAN)).strip()
         if choice == '0':
             return None
         if choice.isdigit():
