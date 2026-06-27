@@ -172,7 +172,7 @@ author_profile: true
   <div class="member-card">
     <img src="/images/members/yanru-xiao.jpg" alt="Yanru Xiao">
     <div class="member-name"><a href="https://sites.google.com/view/yr-xiao">Yanru Xiao</a></div>
-    <div class="member-role">PhD (2017–2022)<br><a href="https://aws.amazon.com">Amazon Web Services, USA</a></div>
+    <div class="member-role">PhD (2017–2022)<br><a href="https://aws.amazon.com">Amazon Research, IL, USA</a></div>
   </div>
 
   <div class="member-card">
