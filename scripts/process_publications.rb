@@ -58,13 +58,14 @@ def format_publication(pub, kind)
     award_html = " <span class=\"award-badge #{cls}\">#{icon} #{label}</span>"
   end
 
+  oral_sfx = ORAL_PAPERS.any? { |s| title.include?(s) } ? ' (Oral)' : ''
+
   <<~HTML
     <li>
       <div class="pub-tag"><span class="pub-badge #{badge_cls}">#{venue_year}</span></div>
       <div class="pub-body"><p>
     #{title}#{award_html}<br>
     #{authors}<br>
-    oral_sfx = ORAL_PAPERS.any? { |s| title.include?(s) } ? ' (Oral)' : ''
     <em>#{pub['full_venue']}#{oral_sfx}</em>#{badges_str}
       </p></div>
     </li>
