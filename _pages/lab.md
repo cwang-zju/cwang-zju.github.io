@@ -11,20 +11,16 @@ author_profile: true
   padding-bottom: 0.3em;
   border-bottom: 1px solid var(--global-border-color);
 }
-
-/* Member grid */
 .member-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-bottom: 1rem;
 }
-
 .member-card {
   width: 130px;
   text-align: center;
 }
-
 .member-card img {
   width: 110px;
   height: 110px;
@@ -34,49 +30,23 @@ author_profile: true
   margin: 0 auto 0.5em;
   border: 2px solid var(--global-border-color);
 }
-
 .member-card .member-name {
   font-size: 0.88em;
   font-weight: 600;
   line-height: 1.3;
   margin-bottom: 0.2em;
 }
-
 .member-card .member-name a {
   color: var(--global-link-color);
   text-decoration: none;
 }
-
 .member-card .member-name a:hover {
   text-decoration: underline;
 }
-
 .member-card .member-role {
   font-size: 0.78em;
   color: var(--global-text-color-light);
   line-height: 1.3;
-}
-
-/* Alumni */
-.alumni-list {
-  font-size: 0.92em;
-  line-height: 2;
-}
-
-/* Gallery */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 0.8rem;
-  margin-top: 1rem;
-}
-
-.gallery-grid img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 4px;
-  display: block;
 }
 </style>
 
@@ -125,12 +95,6 @@ author_profile: true
   </div>
 
   <div class="member-card">
-    <img src="/images/members/wanni-xu.jpg" alt="Wanni Xu">
-    <div class="member-name">Wanni Xu</div>
-    <div class="member-role">Master (2023–2026)</div>
-  </div>
-
-  <div class="member-card">
     <img src="/images/members/zhijie-wang.jpg" alt="Zhijie Wang">
     <div class="member-name"><a href="https://github.com/wa789w">Zhijie Wang</a></div>
     <div class="member-role">Master (2024–2027)</div>
@@ -154,25 +118,20 @@ author_profile: true
 
 ## Alumni
 
-<div class="alumni-list">
+<div class="member-grid">
 
-[Zichen Wang](mailto:withnorman@zju.edu.cn) (PhD 2019–2025) — LLM Engineer (Seed Program), China Mobile Research, Hangzhou; co-advised with [Prof. Peng Cheng](https://person.zju.edu.cn/cp)
+  <div class="member-card">
+    <img src="/images/members/zichen-wang.jpg" alt="Zichen Wang">
+    <div class="member-name"><a href="mailto:withnorman@zju.edu.cn">Zichen Wang</a></div>
+    <div class="member-role">PhD (2019–2025)<br>China Mobile Research</div>
+  </div>
 
-[Yanru Xiao](https://sites.google.com/view/yr-xiao) (PhD 2017–2022) — Applied Scientist, Amazon Research, Chicago, IL, USA
+  <div class="member-card">
+    <img src="/images/members/yanru-xiao.jpg" alt="Yanru Xiao">
+    <div class="member-name"><a href="https://sites.google.com/view/yr-xiao">Yanru Xiao</a></div>
+    <div class="member-role">PhD (2017–2022)<br>Amazon Research</div>
+  </div>
 
-</div>
-
----
-
-## Gallery
-
-<div class="gallery-grid">
-  <img src="/images/gallery/photo-01.jpg" alt="Lab activity">
-  <img src="/images/gallery/photo-02.jpg" alt="Lab activity">
-  <img src="/images/gallery/photo-03.jpg" alt="Lab activity">
-  <img src="/images/gallery/photo-04.jpg" alt="Lab activity">
-  <img src="/images/gallery/photo-05.jpg" alt="Lab activity">
-  <img src="/images/gallery/photo-06.jpg" alt="Lab activity">
 </div>
 
 </div>
