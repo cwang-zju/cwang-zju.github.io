@@ -92,6 +92,26 @@ author_profile: true
 
 .fold-content { display: none; }
 .fold-content.open { display: block; }
+
+.award-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 600;
+  padding: 1px 8px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+.award-candidate {
+  background: #fef9c3;
+  color: #854d0e;
+  border: 1px solid #fde047;
+}
+.award-winner {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #f59e0b;
+}
 </style>
 
 <script>
@@ -126,7 +146,7 @@ Quan Kong, Yanru Xiao, Yuhao Shen, <strong>Cong Wang*</strong><br>
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge conf">ACL 26</span></div>
-  <div class="pub-body"><p>Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism<br>
+  <div class="pub-body"><p>Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism <span class="award-badge award-candidate">🏆 Best Paper Candidate</span><br>
 Yuhao Shen, Tianyu Liu, Junyi Shen, Jinyang Wu, Quan Kong, Huan Li, <strong>Cong Wang*</strong><br>
 <em>The 64th Annual Meeting of the Association for Computational Linguistics (Best Paper Candidate) </em></p></div>
 </li>
@@ -294,7 +314,7 @@ Qiao Zhang, <strong>Cong Wang</strong>, Hongyi Wu, Chunsheng Xin, Tran V Phuong<
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge conf">PerCom 18</span></div>
-  <div class="pub-body"><p>DeepMag: Sniffing Mobile Apps in Magnetic Field through Deep Convolutional Neural Networks<br>
+  <div class="pub-body"><p>DeepMag: Sniffing Mobile Apps in Magnetic Field through Deep Convolutional Neural Networks <span class="award-badge award-winner">🥇 Mark Weiser Best Paper Award</span><br>
 Rui Ning, <strong>Cong Wang</strong>, Chunsheng Xin, Jiang Li and Hongyi Wu<br>
 <em>IEEE International Conference on Pervasive Computing and Communications (PerCom), Athens, Greece, 2018</em></p></div>
 </li>
@@ -417,7 +437,7 @@ Yiming Zeng, Pengzhan Zhou, <strong>Cong Wang</strong>, Ji Liu, Yuanyuan Yang<br
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge jour">TPDS 21</span></div>
-  <div class="pub-body"><p>Towards Efficient Scheduling of Federated Mobile Devices under Computational and Statistical Heterogeneity<br>
+  <div class="pub-body"><p>Towards Efficient Scheduling of Federated Mobile Devices under Computational and Statistical Heterogeneity <span class="award-badge award-candidate">🏆 Best Paper Candidate</span><br>
 <strong>Cong Wang</strong>, Yuanyuan Yang, Pengzhan Zhou<br>
 <em>IEEE Transactions on Parallel and Distributed Systems</em> <a href="https://arxiv.org/abs/2005.12326" style="text-decoration: none; margin-left: 5px;"><img src="https://img.shields.io/badge/paper--%20?style=social&logo=arxiv" alt="paper link"></a></p></div>
 </li>
