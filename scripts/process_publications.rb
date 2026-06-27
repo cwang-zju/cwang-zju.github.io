@@ -4,17 +4,12 @@ def generate_badge(type, url)
   return "" if url.nil? || url.empty?
   
   logo = case type
-  when 'code'
-    'github'
-  when 'slides'
-    'slides'
-  when 'video'
-    'youtube'
-  when 'paper'
-    'arxiv'
+  when 'code'   then 'github'
+  when 'slides' then 'slides'
+  when 'video'  then 'youtube'
+  when 'paper'  then 'arxiv'
   end
 
-  # 处理本地文件路径
   if type == 'paper' && !url.start_with?('http')
     url = "/files/#{url}" unless url.include?('/')
   end
@@ -22,72 +17,98 @@ def generate_badge(type, url)
   "<a href=\"#{url}\" style=\"text-decoration: none; margin-left: 5px;\"><img src=\"https://img.shields.io/badge/#{type}--%20?style=social&logo=#{logo}\" alt=\"#{type} link\"></a>"
 end
 
-def format_publication(pub)
-  # Format venue with year
-  venue_year = "[#{pub['venue']} #{pub['pub_date'].to_s[-2..-1]}]"
+def format_publication(pub, kind)
+  venue_year = "#{pub['venue']} #{pub['pub_date'].to_s[-2..-1]}"
   
-  # Format authors (make Wang, Cong bold)
   authors = pub['authors'].split(', ').map do |author|
-    if author.include?('Cong Wang')
-      "<strong>#{author}</strong>"
-    else
-      author
-    end
+    author.include?('Cong Wang') ? "<strong>#{author}</strong>" : author
   end.join(', ')
   
-  # Generate badges for available links
   badges = []
-  badges << generate_badge('code', pub['code_url']) if pub['code_url']
-  badges << generate_badge('slides', pub['slides_url']) if pub['slides_url']
-  badges << generate_badge('video', pub['video_url']) if pub['video_url']
-  badges << generate_badge('paper', pub['paper_url']) if pub['paper_url']
+  badges << generate_badge('code',   pub['code_url'])   if pub['code_url']   && !pub['code_url'].empty?
+  badges << generate_badge('slides', pub['slides_url']) if pub['slides_url'] && !pub['slides_url'].empty?
+  badges << generate_badge('video',  pub['video_url'])  if pub['video_url']  && !pub['video_url'].empty?
+  badges << generate_badge('paper',  pub['paper_url'])  if pub['paper_url']  && !pub['paper_url'].empty?
   badges_str = badges.empty? ? "" : " " + badges.join(' ')
-  
-  # Format the publication entry
+
+  badge_cls = kind == 'conf' ? 'conf' : 'jour'
+
   <<~HTML
     <li>
-    <p>
-    <strong>#{venue_year} </strong>#{pub['title']}<br>
+      <div class="pub-tag"><span class="pub-badge #{badge_cls}">#{venue_year}</span></div>
+      <div class="pub-body"><p>
+    #{pub['title']}<br>
     #{authors}<br>
     <em>#{pub['full_venue']}</em>#{badges_str}
-    </p>
+      </p></div>
     </li>
   HTML
 end
 
-def process_publications
-  # Read conference publications
-  conference_pubs = CSV.read('_pages/conference.tsv', headers: true, col_sep: "\t")
-  journal_pubs = CSV.read('_pages/journel.tsv', headers: true, col_sep: "\t")
-  
-  # Sort publications by date (newest first)
-  conference_pubs = conference_pubs.sort_by { |pub| -pub['pub_date'].to_i }
-  journal_pubs = journal_pubs.sort_by { |pub| -pub['pub_date'].to_i }
-  
-  # Generate HTML content
-  conference_content = conference_pubs.map { |pub| format_publication(pub) }.join("\n")
-  journal_content = journal_pubs.map { |pub| format_publication(pub) }.join("\n")
-  
-  # Read the current publications.md
-  content = File.read('_pages/publications.md')
-  
-  # Split content at the conference and journal sections
-  parts = content.split(/^## Selected Conference Publications/)
-  if parts.size == 2
-    header = parts[0]
-    rest = parts[1].split(/^## Selected Journal Publications/)
-    
-    # Reconstruct the file with new content
-    new_content = header + 
-                 "## Selected Conference Publications\n\n" +
-                 conference_content + "\n\n" +
-                 "## Selected Journal Publications\n\n" +
-                 journal_content
-    
-    # Write back to publications.md
-    File.write('_pages/publications.md', new_content)
+def is_old(pub)
+  year = pub['pub_date'].to_i
+  # conference uses 2-digit year, journal uses 4-digit
+  if year < 100
+    year <= 17
+  else
+    year <= 2017
   end
 end
 
-# Run the script
+def render_section(pubs, kind)
+  new_pubs = pubs.reject { |p| is_old(p) }
+  old_pubs = pubs.select { |p| is_old(p) }
+  
+  new_html = new_pubs.map { |p| format_publication(p, kind) }.join("\n")
+  old_html = old_pubs.map  { |p| format_publication(p, kind) }.join("\n")
+
+  result = "<ul class=\"pub-list\">\n#{new_html}\n</ul>\n"
+
+  unless old_pubs.empty?
+    result += <<~HTML
+
+      <button class="fold-toggle" onclick="toggleFold(this, '#{kind}-old')">
+        <span class="fold-arrow">▼</span>
+        Earlier work — PhD period (2013–2017)
+        <span class="fold-count">#{old_pubs.size} papers</span>
+      </button>
+      <div class="fold-content" id="#{kind}-old">
+      <ul class="pub-list">
+      #{old_html}
+      </ul>
+      </div>
+    HTML
+  end
+
+  result
+end
+
+def process_publications
+  conference_pubs = CSV.read('_pages/conference.tsv', headers: true, col_sep: "\t")
+  journal_pubs    = CSV.read('_pages/journel.tsv',    headers: true, col_sep: "\t")
+
+  conference_pubs = conference_pubs.sort_by { |p| -p['pub_date'].to_i }
+  journal_pubs    = journal_pubs.sort_by    { |p| -p['pub_date'].to_i }
+
+  conf_html = render_section(conference_pubs, 'conf')
+  jour_html = render_section(journal_pubs,    'jour')
+
+  content = File.read('_pages/publications.md')
+
+  parts = content.split(/^## Selected Conference Publications\n/)
+  return unless parts.size == 2
+
+  header = parts[0]
+  rest   = parts[1].split(/^## Selected Journal Publications\n/)
+
+  new_content = header +
+    "<h2 class=\"section-title\">Selected Conference Publications</h2>\n\n" +
+    conf_html + "\n\n" +
+    "<h2 class=\"section-title\" style=\"margin-top:2.5em\">Selected Journal Publications</h2>\n\n" +
+    jour_html
+
+  File.write('_pages/publications.md', new_content)
+  puts "Done. publications.md updated."
+end
+
 process_publications()
