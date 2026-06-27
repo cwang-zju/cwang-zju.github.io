@@ -71,11 +71,12 @@ author_profile: true
   margin-bottom: 0.25em;
 }
 .member-card .member-name a {
-  color: var(--global-text-color);
+  color: var(--global-link-color);
   text-decoration: none;
+  font-weight: 600;
 }
 .member-card .member-name a:hover {
-  color: var(--global-link-color);
+  text-decoration: underline;
 }
 .member-card .member-role {
   font-size: 0.75em;
@@ -164,19 +165,27 @@ author_profile: true
   <div class="section-line"></div>
 </div>
 
-<div class="member-grid">
+<div class="subsection-title">Ph.D. Alumni</div>
 
-  <div class="member-card">
-    <img src="/images/members/zichen-wang.jpg" alt="Zichen Wang">
-    <div class="member-name"><a href="mailto:withnorman@zju.edu.cn">Zichen Wang</a></div>
-    <div class="member-role">PhD (2019–2025)<br><a href="https://www.chinamobileltd.com/en/global/home.php">China Mobile Research</a></div>
-  </div>
+<div class="member-grid">
 
   <div class="member-card">
     <img src="/images/members/yanru-xiao.jpg" alt="Yanru Xiao">
     <div class="member-name"><a href="https://sites.google.com/view/yr-xiao">Yanru Xiao</a></div>
-    <div class="member-role">PhD (2017–2022)<br><a href="https://www.amazon.science">Amazon Research</a></div>
+    <div class="member-role">PhD (2017–2022)<br><a href="https://aws.amazon.com">Amazon Web Services, USA</a></div>
   </div>
+
+  <div class="member-card">
+    <img src="/images/members/zichen-wang.jpg" alt="Zichen Wang">
+    <div class="member-name"><a href="mailto:withnorman@zju.edu.cn">Zichen Wang</a></div>
+    <div class="member-role">PhD (2019–2025)<br><a href="https://www.cmri.com.cn">China Mobile Research Institute, Hangzhou</a></div>
+  </div>
+
+</div>
+
+<div class="subsection-title">Master Alumni</div>
+
+<div class="member-grid">
 
   <div class="member-card">
     <img src="/images/members/zhaoqi-chen.jpg" alt="Zhaoqi Chen">
