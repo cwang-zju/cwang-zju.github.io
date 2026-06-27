@@ -69,7 +69,7 @@ def render_section(pubs, kind)
 
       <button class="fold-toggle" onclick="toggleFold(this, '#{kind}-old')">
         <span class="fold-arrow">▼</span>
-        Earlier work — PhD period (2013–2017)
+        Earlier work — PhD period (2010–2017)
         <span class="fold-count">#{old_pubs.size} papers</span>
       </button>
       <div class="fold-content" id="#{kind}-old">

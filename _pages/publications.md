@@ -31,7 +31,7 @@ author_profile: true
 
 .pub-tag {
   flex-shrink: 0;
-  width: 76px;
+  width: 88px;
   padding-top: 2px;
   text-align: right;
 }
@@ -302,7 +302,7 @@ Rui Ning, <strong>Cong Wang</strong>, Chunsheng Xin, Jiang Li and Hongyi Wu<br>
 
 <button class="fold-toggle" onclick="toggleFold(this, 'conf-old')">
   <span class="fold-arrow">▼</span>
-  Earlier work — PhD period (2013–2017)
+  Earlier work — PhD period (2010–2017)
   <span class="fold-count">8 papers</span>
 </button>
 <div class="fold-content" id="conf-old">
@@ -449,7 +449,7 @@ Pengzhan Zhou, <strong>Cong Wang</strong>, Yuanyuan Yang<br>
 
 <button class="fold-toggle" onclick="toggleFold(this, 'jour-old')">
   <span class="fold-arrow">▼</span>
-  Earlier work — PhD period (2013–2017)
+  Earlier work — PhD period (2010–2017)
   <span class="fold-count">7 papers</span>
 </button>
 <div class="fold-content" id="jour-old">
