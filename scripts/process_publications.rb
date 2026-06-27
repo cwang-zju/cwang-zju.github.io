@@ -1,8 +1,13 @@
 require 'csv'
 
+ORAL_PAPERS = [
+  'Double: Breaking the Acceleration',
+  'RFF-TTA: Physical Information-Aware',
+]
+
 # Award definitions: title substring => [icon_html, label, color_class]
 AWARDS = {
-  'Double: Breaking the Acceleration' => ['🏆', 'Best Paper Candidate', 'award-candidate'],
+  'Double: Breaking the Acceleration' => ['🏆', 'Oral &amp; Best Paper Candidate', 'award-candidate'],
   'Towards Efficient Scheduling of Federated Mobile' => ['🏆', 'Best Paper Candidate', 'award-candidate'],
   'DeepMag: Sniffing Mobile Apps' => ['🥇', 'Mark Weiser Best Paper Award', 'award-winner'],
 }
@@ -59,7 +64,8 @@ def format_publication(pub, kind)
       <div class="pub-body"><p>
     #{title}#{award_html}<br>
     #{authors}<br>
-    <em>#{pub['full_venue']}</em>#{badges_str}
+    oral_sfx = ORAL_PAPERS.any? { |s| title.include?(s) } ? ' (Oral)' : ''
+    <em>#{pub['full_venue']}#{oral_sfx}</em>#{badges_str}
       </p></div>
     </li>
   HTML

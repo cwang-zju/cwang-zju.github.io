@@ -154,7 +154,7 @@ Yuhao Shen, Tianyu Liu, Junyi Shen, Jinyang Wu, Quan Kong, Huan Li, <strong>Cong
   <div class="pub-tag"><span class="pub-badge conf">ACL 26</span></div>
   <div class="pub-body"><p>See the Forest for the Trees: Loosely Speculative Decoding via Visual-Semantic Guidance for Efficient Inference of Video LLMs<br>
 Yicheng Ji, Jun Zhang, Jinpeng Chen, <strong>Cong Wang</strong>, Lidan Shou, Gang Chen, Huan Li<br>
-<em>The 64th Annual Meeting of the Association for Computational Linguistics</em></p></div>
+<em>The 64th Annual Meeting of the Association for Computational Linguistics (Oral)</em></p></div>
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge conf">SIGIR 26</span></div>
@@ -190,7 +190,7 @@ Zhijie Wang, Lin Wang, Zhenyu Wen, <strong>Cong Wang*</strong><br>
   <div class="pub-tag"><span class="pub-badge conf">AAAI 26</span></div>
   <div class="pub-body"><p>RFF-TTA: Physical Information-Aware Prototype for Temporally Varying RF Fingerprinting Online Test-Time-Adaptation<br>
 Taotao Li, Yiyang Li, Zhenyu Wen, Jiahao Lin, Jinhao Wan, Jie Su, <strong>Cong Wang</strong>, Zhen Hong<br>
-<em>The 40th Annual AAAI Conference on Artificial Intelligence, Singapore</em></p></div>
+<em>The 40th Annual AAAI Conference on Artificial Intelligence, Singapore (Oral)</em></p></div>
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge conf">CVPR 25</span></div>
