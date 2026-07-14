@@ -1,0 +1,62 @@
+<! --
+
+  </div>
+<!-- The Projects Section -->
+  <div class="w3-container w3-padding-32 " id="projects">
+    <h2>Research Projects</h2>
+
+      <h4><li>Federated Learning on Consumer Mobile Devices (2018-2022)</li></h4>
+        <img style="width:100%;" src="images/project3.png"> 
+        
+        <p class="w3-justify">
+        Data privacy is becoming a major barrier to deploy AI applications, which calls for addressing the privacy-utility tension. In the early works, I have worked along the line of homomorphic encryption to enable end-to-end training [IJCAI' 18]. However, the implementation only supports CPU multithreading and the crypto packages lack a transparent integration with the low-level BLAS libraries. Therefore, I shifted my focus to on-device learning, which preverses data privacy in nature with new challenges from computation, memory, programmability and energy. We have made some first attempts on the application side to incorporate the entire training/inference pipeline on consumer mobile device for continuous gait-based authentication and assessed their benefits [ACM MM' 19, TMC 21]. We have also worked on addressing the computational and statistical heterogeneity problems in federated learning by load balancing [IPDPS' 20, TPDS' 21], and leveraged application co-running opportunities for energy conservation of federated tasks on mobile devices [ICDCS' 22].
+        </p> 
+
+        <p class="w3-justify">
+        This research was supported by the following grants: 
+
+        <p> <strong>CAREER: Memory-Efficient, Heterogeneity-Aware and Robust Architecture for Federated Intelligence on Edge Devices, National Science Foundation, $470K, PI</strong>
+        </p>  
+
+        <strong>CRII: Software and Hardware Architecture Co-Design for Deep Learning on Mobile Device, National Science Foundation, $175K, PI</strong>
+        </p>
+
+        <h4><li>Security and Privacy in Deep Image Retrieval Systems (2019-2022)</li></h4>
+        <img style="width:100%;" src="images/project2.png">
+        
+        <p class="w3-justify">
+        This project focuses on addressing the security and privacy problems in deep image retrieval systems. These systems rely on the algorithm supply chain from deep learning and inherit the adversarial pitfalls, but with different attack surface. We first used adversarial examples to prevent the private images from being retrieved from the database [CVPR' 20]. Then we enhanced targeted black-box attacks by connecting adversarial subspace and transferability [CVPR' 21]. Meanwhile, we also worked on a similar problem called neural backdoor, and designed Generative Adversarial Network-based detection to unveil on-manifold backdoor triggers from the original inputs [ACM MM' 20].   
+        </p> 
+        
+        <p class="w3-justify">
+        This research was supported by the following grants: 
+
+        <p> <strong>CHS: SMALL: AI-Human Collaboration in Autonomous Vehicles for Safety and Security, National Science Foundation, $500K, Co-PI</strong>
+        </p>  
+
+        <strong>Security and Privacy of Deep Image Retrieval Systems, Commonwealth Cyber Initiative (State of Virginia), $140K, Lead PI</strong>
+        </p>
+
+        <h4><li>Wireless Rechargeable Sensor Networks (2011-2017)</li></h4>
+        <img style="width:100%;" src="images/project1.png">
+        
+        <p class="w3-justify">
+        This project aims to leverage the wireless charging technology for improving lifetime of wireless sensor networks. The main challenge is to determine the set of sensors for energy refill, which typically comes down to NP-Hard problems. During my PhD study, I started with scheduling multiple mobile chargers [IPDPS' 13, TMC' 14], considered their internal cost [SECON' 14, TC' 16], and further utilized resonant repeaters for multi-hop relay [ICDCS' 15, TMC' 17]. I also employed renewable energy sources such as solar power for compensating the relative low-energy density of wireless charging [INFOCOM' 16, TMC' 18]. We further generalized and included arbitrary energy sources such as wind power in [INFOCOM' 19, 20], and extended the wireless charging framework to smart city applications such as dockeless E-bike sharing in [IJCAI' 19, ICDCS' 20]. 
+        </p>  
+
+        <p class="w3-justify">
+        This research constitutes as an integral part of my PhD thesis, and it was fortunate to be included in the following books: 
+      <p><a target="_blank" href="https://www.springerprofessional.de/en/wireless-rechargeable-sensor-networks/2425946"><img style="width:20%;" src="images/book2.JPG "> </a>
+      &nbsp&nbsp&nbsp
+
+      <a target="_blank" href="https://link.springer.com/book/10.1007/978-3-319-46810-5"><img style="width:20%;" src="images/book1.JPG"></a>
+      
+      
+      </p>
+      
+      
+        </p>  
+
+  </div>
+
+  -->
