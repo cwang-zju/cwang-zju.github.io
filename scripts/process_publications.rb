@@ -1,13 +1,12 @@
 require 'csv'
 
 ORAL_PAPERS = [
-  'Double: Breaking the Acceleration',
   'RFF-TTA: Physical Information-Aware',
 ]
 
 # Award definitions: title substring => [icon_html, label, color_class]
 AWARDS = {
-  'Double: Breaking the Acceleration' => ['🏆', 'Oral &amp; Best Paper Candidate', 'award-candidate'],
+  'Double: Breaking the Acceleration' => ['🏆', 'SAC Highlight Award', 'award-candidate'],
   'Towards Efficient Scheduling of Federated Mobile' => ['🏆', 'Best Paper Candidate', 'award-candidate'],
   'DeepMag: Sniffing Mobile Apps' => ['🥇', 'Mark Weiser Best Paper Award', 'award-winner'],
 }
