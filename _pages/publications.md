@@ -146,9 +146,9 @@ Quan Kong, Yanru Xiao, Yuhao Shen, <strong>Cong Wang*</strong><br>
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge conf">ACL 26</span></div>
-  <div class="pub-body"><p>Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism <span class="award-badge award-candidate">🏆 Best Paper Candidate</span><br>
+  <div class="pub-body"><p>Double: Breaking the Acceleration Limit via Double Retrieval Speculative Parallelism <span class="award-badge award-candidate">🏆 SAC Highlight Award</span><br>
 Yuhao Shen, Tianyu Liu, Junyi Shen, Jinyang Wu, Quan Kong, Huan Li, <strong>Cong Wang*</strong><br>
-<em>The 64th Annual Meeting of the Association for Computational Linguistics (Best Paper Candidate) </em></p></div>
+<em>The 64th Annual Meeting of the Association for Computational Linguistics (SAC Highlight Award ~ 1.5%)</em></p></div>
 </li>
 <li>
   <div class="pub-tag"><span class="pub-badge conf">ACL 26</span></div>
@@ -520,3 +520,6 @@ Songtao Guo, <strong>Cong Wang</strong>, Yuanyuan Yang<br>
 </div>
 
 </div>
+
+---
+*AI生成*
