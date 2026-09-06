@@ -172,13 +172,13 @@ author_profile: true
   <div class="member-card">
     <img src="/images/members/yanru-xiao.jpg" alt="Yanru Xiao">
     <div class="member-name"><a href="https://sites.google.com/view/yr-xiao">Yanru Xiao</a></div>
-    <div class="member-role">PhD (2017–2022)<br><a href="https://aws.amazon.com">Amazon Web Services, USA</a></div>
+    <div class="member-role">PhD (2017–2022)<br><a href="https://aws.amazon.com">Amazon Research, Chicago, IL, USA</a></div>
   </div>
 
   <div class="member-card">
     <img src="/images/members/zichen-wang.jpg" alt="Zichen Wang">
     <div class="member-name"><a href="mailto:withnorman@zju.edu.cn">Zichen Wang</a></div>
-    <div class="member-role">PhD (2019–2025)<br><a href="https://www.cmri.com.cn">China Mobile Research Institute, Hangzhou</a></div>
+    <div class="member-role">PhD (2019–2025)<br><a href="https://www.cmri.com.cn">China Mobile Research Institute, Hangzhou, China</a></div>
   </div>
 
 </div>
@@ -190,7 +190,7 @@ author_profile: true
   <div class="member-card">
     <img src="/images/members/zhaoqi-chen.jpg" alt="Zhaoqi Chen">
     <div class="member-name"><a href="https://github.com/KIKIENAO">Zhaoqi Chen</a></div>
-    <div class="member-role">Master (2023–2026)<br><a href="https://www.kuaishou.com">Kuaishou Technology</a></div>
+    <div class="member-role">Master (2023–2026)<br><a href="https://www.tencent.com">Tencent, Shenzhen, China</a></div>
   </div>
 
 </div>
