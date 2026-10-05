@@ -133,6 +133,15 @@ You can also find my articles on <a href="{{site.author.googlescholar}}">my Goog
 
 <ul class="pub-list">
 <li>
+  <div class="pub-tag"><span class="pub-badge conf">NeurIPS 26</span></div>
+  <div class="pub-body"><p>
+Rethinking Latency Denial-of-Service: Attack the LLM Serving Framework, Not the Model<br>
+Tianyi Wang, Huawei Fan, Yuanchao Shu, Peng Cheng, <strong>Cong Wang*</strong><br>
+<em>The 40th Conference on Neural Information Processing Systems</em> <a href="https://github.com/Phil-Fan/FS-attack" style="text-decoration: none; margin-left: 5px;"><img src="https://img.shields.io/badge/code--%20?style=social&logo=github" alt="code link"></a> <a href="/files/neurips26.pdf" style="text-decoration: none; margin-left: 5px;"><img src="https://img.shields.io/badge/paper--%20?style=social&logo=arxiv" alt="paper link"></a>
+  </p></div>
+</li>
+
+<li>
   <div class="pub-tag"><span class="pub-badge conf">ECCV 26</span></div>
   <div class="pub-body"><p>
 Don't Teach Instability, Teach Robustness: Selective Sensitivity Gating for Adversarial Robust Distillation<br>
