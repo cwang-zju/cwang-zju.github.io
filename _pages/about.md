@@ -22,7 +22,9 @@ redirect_from:
   border: 0.5px solid var(--global-link-color);
 }
 .news-bar .news-icon { font-size: 1.1em; flex-shrink: 0; margin-top: 2px; }
-.news-bar p { font-size: 0.88em; line-height: 1.6; margin: 0; color: var(--global-link-color); }
+.news-bar p { font-size: 0.88em; line-height: 1.6; margin: 0; color: var(--global-text-color); }
+.news-bar p a { text-decoration: none; border-bottom: 1px solid currentColor; }
+.news-bar p a:hover { color: var(--global-link-color); }
 
 .section-label {
   font-size: 0.72em;
@@ -115,6 +117,11 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
 <div class="news-bar">
   <span class="news-icon">📢</span>
   <p><strong>News:</strong> System-Level LLM Attack Accepted at NeurIPS 2026 ! Congrats to Tianyi and Huawei !</p>
+</div>
+
+<div class="news-bar">
+  <span class="news-icon">🎉</span>
+  <p><strong>News:</strong> Congratulations to Huawei Fan on winning the <strong>Second Prize</strong>! AgentTero, a Zotero-like open-source agent for scientific literature management, is now fully open source. Code: <a href="https://github.com/poco-ai/Agentero">AgentTero on GitHub</a>. Press coverage: <a href="https://www.163.com/dy/article/L776VD9Q0530RS3S.html">NetEase</a> &middot; <a href="https://www.sina.cn/news/detail/5344945730752889.html">Sina</a>.</p>
 </div>
 
 <div class="section-label">Research Interests</div>
