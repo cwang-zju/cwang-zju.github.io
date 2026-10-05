@@ -114,15 +114,14 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
 
 <div class="news-bar">
   <span class="news-icon">📢</span>
-  <p><strong>New:</strong> System-Level LLM Attack Accepted at NeurIPS 2026 ! Congrats to Tianyi and Huawei !</p>
+  <p><strong>News:</strong> System-Level LLM Attack Accepted at NeurIPS 2026 ! Congrats to Tianyi and Huawei !</p>
 </div>
 
 <div class="section-label">Research Interests</div>
 
 <div class="interest-card">
-  <span class="ic-icon">🧠</span>
   <div>
-    <div class="ic-label">AI Infra</div>
+    <div class="ic-label">AI Infrastructure</div>
   </div>
 </div>
 
@@ -144,7 +143,7 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
   <div class="service-block">
     <div class="stitle">Chairing</div>
     <div class="tag-list">
-      <span class="tag">IEEE Transactions on Cloud Computing — Associate Editor 2025–Now</span>
+      <span class="tag hl">IEEE Transactions on Cloud Computing — Associate Editor 2025–Now</span>
       <span class="tag hl">ACM SenSys 24 — Finance Chair</span>
       <span class="tag hl">ICNC 23 — ECB Co-Chair</span>
     </div>
