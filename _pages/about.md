@@ -68,9 +68,11 @@ redirect_from:
   font-weight: 500;
   vertical-align: middle;
 }
-.ab-nsf  { background: #dbeafe; color: #1e40af; }
-.ab-ieee { background: #fef3c7; color: #92400e; }
-.ab-odu  { background: #dcfce7; color: #166534; }
+.ab-nsf   { background: #dbeafe; color: #1e40af; }
+.ab-nsfcp { background: #ede9fe; color: #5b21b6; }
+.ab-ieee  { background: #fef3c7; color: #92400e; }
+.ab-odu   { background: #dcfce7; color: #166534; }
+.ab-acl   { background: #ffe4e6; color: #9f1239; }
 
 .service-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .service-block .stitle {
@@ -112,7 +114,7 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
 
 <div class="news-bar">
   <span class="news-icon">📢</span>
-  <p><strong>New:</strong> Two papers accepted at ECCV 2026 — Vision-TTT and AEGIS. Double at ACL 2026 selected as <strong>Oral &amp; Best Paper Candidate</strong>. Congratulations to all students!</p>
+  <p><strong>New:</strong> System-Level LLM Attack Accepted at NeurIPS 2026 ! Congrats to Tianyi and Huawei !</p>
 </div>
 
 <div class="section-label">Research Interests</div>
@@ -120,14 +122,15 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
 <div class="interest-card">
   <span class="ic-icon">🧠</span>
   <div>
-    <div class="ic-label">LLM Efficiency and Security</div>
-    <div class="ic-sub">Speculative decoding, inference acceleration, adversarial robustness, LLM safety</div>
+    <div class="ic-label">AI Infra</div>
   </div>
 </div>
 
 <div class="section-label">Awards</div>
 
 <div class="award-list">
+  <div class="award-row"><span class="award-year">2026</span><span>ACL SAC Highlight Award<span class="award-badge ab-acl">ACL</span></span></div>
+  <div class="award-row"><span class="award-year">2023</span><span>China Overseas Talents Program<span class="award-badge ab-nsfcp">NSFC</span></span></div>
   <div class="award-row"><span class="award-year">2021</span><span>NSF CAREER Award<span class="award-badge ab-nsf">NSF</span></span></div>
   <div class="award-row"><span class="award-year">2021</span><span>Distinguished Research Award, ODU<span class="award-badge ab-odu">ODU</span></span></div>
   <div class="award-row"><span class="award-year">2020</span><span>Richard Cheng Research Innovation Award, ODU<span class="award-badge ab-odu">ODU</span></span></div>
@@ -141,6 +144,7 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
   <div class="service-block">
     <div class="stitle">Chairing</div>
     <div class="tag-list">
+      <span class="tag">IEEE Transactions on Cloud Computing — Associate Editor 2025–Now</span>
       <span class="tag hl">ACM SenSys 24 — Finance Chair</span>
       <span class="tag hl">ICNC 23 — ECB Co-Chair</span>
     </div>
