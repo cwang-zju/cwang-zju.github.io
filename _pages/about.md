@@ -122,7 +122,7 @@ He is the recipient of the NSF CRII Award in 2019 and NSF CAREER Award in 2021.
 
 <div class="news-bar">
   <span class="news-icon">🎉</span>
-  <p><strong>News:</strong> Congratulations to Phil Fan on winning the <strong>Second Prize</strong> in <a href="https://www.goaihz.com/">GoAI</a>! AgentTero, a Zotero-like open-source agent for scientific literature management, is now fully open source. Code: <a href="https://github.com/poco-ai/Agentero">AgentTero on GitHub</a>. Press coverage: <a class="icon" href="https://www.163.com/dy/article/L776VD9Q0530RS3S.html" title="NetEase">&#128240;</a> <a class="icon" href="https://www.sina.cn/news/detail/5344945730752889.html" title="Sina">&#128225;</a></p>
+  <p><strong>News:</strong> Congratulations to Phil Huawei Fan on winning the <strong>Second Prize</strong> in <a href="https://www.goaihz.com/">GoAI</a>! AgentTero, a Zotero-like open-source agent for scientific literature management, is now fully open source. Code: <a href="https://github.com/poco-ai/Agentero">AgentTero on GitHub</a>. Press coverage: <a class="icon" href="https://www.163.com/dy/article/L776VD9Q0530RS3S.html" title="NetEase">&#128240;</a> <a class="icon" href="https://www.sina.cn/news/detail/5344945730752889.html" title="Sina">&#128225;</a></p>
 </div>
 
 <div class="section-label">Research Interests</div>

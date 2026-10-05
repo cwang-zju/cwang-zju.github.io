@@ -118,7 +118,7 @@ author_profile: true
 
   <div class="member-card">
     <img src="/images/members/yuhao-shen.jpg" alt="Yuhao Shen">
-    <div class="member-name"><a href="https://scholar.google.com/citations?user=kYveqcQAAAAJ&hl=en">Yuhao Shen</a></div>
+    <div class="member-name"><a href="https://scholar.google.com/citations?user=kYveqcQAAAAJ&hl=en">Piggy Yuhao Shen</a></div>
     <div class="member-role">PhD (2024–)</div>
   </div>
 
@@ -129,8 +129,8 @@ author_profile: true
   </div>
 
   <div class="member-card">
-    <img src="/images/members/huawei-fan.jpg" alt="Huawei Fan">
-    <div class="member-name"><a href="https://www.philfan.cn">Huawei Fan</a></div>
+    <img src="/images/members/huawei-fan.jpg" alt="Phil Huawei Fan">
+    <div class="member-name"><a href="https://www.philfan.cn">Phil Huawei Fan</a></div>
     <div class="member-role">PhD (2026–)</div>
   </div>
 
@@ -156,6 +156,18 @@ author_profile: true
     <img src="/images/members/jingqi-ji.jpg" alt="Jingqi Ji">
     <div class="member-name"><a href="https://chingkei.cn/about/">Jingqi Ji</a></div>
     <div class="member-role">Master (2025–2028)</div>
+  </div>
+
+  <div class="member-card">
+    <img src="/images/members/jie-xu.jpg" alt="Jie Xu">
+    <div class="member-name">Jie Xu</div>
+    <div class="member-role">Master (2026–2029)</div>
+  </div>
+
+  <div class="member-card">
+    <img src="/images/members/xinkai-wang.jpg" alt="Xinkai Wang">
+    <div class="member-name">Xinkai Wang</div>
+    <div class="member-role">Master (2026–2029)</div>
   </div>
 
 </div>
